@@ -1,13 +1,106 @@
-body {
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9fafb;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header */
+.App-header {
+  background: linear-gradient(135deg, #2e7d32, #1976d2);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.App-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.App-header p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #f9a825;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  background: #f57f17;
+  transform: translateY(-2px);
+}
+
+/* Sections */
+.section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 1.5rem;
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Custom List */
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  background: white;
+  margin: 0.7rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.section ul li::before {
+  content: "✅";
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: #333;
+  color: white;
+}
+
+.footer a {
+  color: #f9a825;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
