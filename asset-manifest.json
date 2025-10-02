@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/nutridlo.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/nutridlo.github.io/static/js/main.a2ca76f1.js",
+    "main.css": "/nutridlo.github.io/static/css/main.63ae75ed.css",
+    "main.js": "/nutridlo.github.io/static/js/main.b46958dc.js",
     "static/js/453.db44d9d1.chunk.js": "/nutridlo.github.io/static/js/453.db44d9d1.chunk.js",
-    "static/media/logo.svg": "/nutridlo.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nutridlo.github.io/index.html",
-    "main.f855e6bc.css.map": "/nutridlo.github.io/static/css/main.f855e6bc.css.map",
-    "main.a2ca76f1.js.map": "/nutridlo.github.io/static/js/main.a2ca76f1.js.map",
+    "main.63ae75ed.css.map": "/nutridlo.github.io/static/css/main.63ae75ed.css.map",
+    "main.b46958dc.js.map": "/nutridlo.github.io/static/js/main.b46958dc.js.map",
     "453.db44d9d1.chunk.js.map": "/nutridlo.github.io/static/js/453.db44d9d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.a2ca76f1.js"
+    "static/css/main.63ae75ed.css",
+    "static/js/main.b46958dc.js"
   ]
 }
